@@ -1,0 +1,63 @@
+body{
+	background-color:#c0c0c0;
+	padding: 0px;
+	margin: 0px;
+}
+.empty-div{
+	overflow: hidden;
+	display: inline-block;
+	/*margin: 4px 8px;*/
+}
+#header{
+	background-color: green; /* #008000 */
+	display:block; /* default */
+	width: 712px;
+	height: 114px;
+	/*margin: 15px 15px 7.5px 15px; *//* top right bottom left*/
+	margin-left: 15px;
+	margin-top: 15px;
+}
+#sidebar{
+	background-color: blue;
+	/*display: inline-block;*/
+	vertical-align: top;
+	width: 152px;
+	height: 226px;
+	margin-left:15px;
+	margin-top:15px;
+}
+#main-content{
+	background-color: red;
+	/*display: inline-block;*/
+	vertical-align: top;
+	width: 536px;
+	height: 316px;
+	/*margin: 7.5px;*/
+	margin-left: 15px;
+	margin-top: 15px;
+	padding-left: 5px;
+}
+#content-row-1{
+	height: auto;
+	width: auto;
+	padding: 0px;
+	margin: 0px;
+}
+#content-row-2{
+	background-color: purple;
+	height:88px;
+	width:495px;
+	padding: 0px;
+	margin-top: 15px;
+	margin-left: 8px;
+}
+.box{
+	/*overflow: hidden;*/
+	background-color: yellow;
+	/*display: inline-block;*/
+	width: 157.5px;
+	height: 150px;
+	/*margin: 7.5px 4px 7.5px 4px;*/ /* top right bottom left*/
+	margin-left: 6.5px;
+	margin-top: 12px;
+}
